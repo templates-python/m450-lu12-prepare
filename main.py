@@ -1,12 +1,13 @@
-def calculate():
+def createTestdata():
+    """ Hier kommt Ihr Code rein
+
+    Erzeuge TXT-Datei mit 100 Klienten...
+
+    Erzeuge TXT-Datei mit 10 Buchungen pro Klienten...
+
     """
-    calculates the total
-    :return: None
-    """
-    price = 14.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
+
 
 
 if __name__ == '__main__':
-    calculate()
+    createTestdata()
